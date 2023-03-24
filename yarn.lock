@@ -7317,7 +7317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"footer@*, footer@workspace:packages/footer":
+"footer@workspace:*, footer@workspace:packages/footer":
   version: 0.0.0-use.local
   resolution: "footer@workspace:packages/footer"
   dependencies:
@@ -8082,7 +8082,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"header@*, header@workspace:packages/header":
+"header@workspace:*, header@workspace:packages/header":
   version: 0.0.0-use.local
   resolution: "header@workspace:packages/header"
   dependencies:
@@ -13271,8 +13271,8 @@ __metadata:
     "@types/react": ^17.0.45
     "@types/react-dom": ^17.0.17
     eslint: ^8.15.0
-    footer: "*"
-    header: "*"
+    footer: "workspace:*"
+    header: "workspace:*"
     jest: ^27.4.3
     react: 18.1.0
     react-dom: 18.1.0
