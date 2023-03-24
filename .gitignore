@@ -15,3 +15,5 @@ packages/remixapp/public/build
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+.verdaccio

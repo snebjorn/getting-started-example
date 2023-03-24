@@ -4,8 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "verdaccio:start": "verdaccio -c ./.verdaccio.yaml",
+    "verdaccio:publish": "lerna publish --registry=\"http://localhost:4873\" --no-verify-access --no-verify-registry --yes"
+  },
   "devDependencies": {
-    "lerna": "^6.0.1"
+    "lerna": "^6.0.1",
+    "verdaccio": "^5.23.1"
   },
   "packageManager": "yarn@3.5.0"
 }
